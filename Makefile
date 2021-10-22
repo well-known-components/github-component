@@ -4,10 +4,10 @@ LOCAL_ARG = --local --verbose --diagnostics
 endif
 
 test:
-	node_modules/.bin/jest --detectOpenHandles --colors --runInBand $(TESTARGS)
+	node_modules/.bin/jest --detectOpenHandles --colors --runInBand --coverage $(TESTARGS)
 
 test-watch:
-	node_modules/.bin/jest --detectOpenHandles --colors --runInBand --watch $(TESTARGS)
+	node_modules/.bin/jest --detectOpenHandles --colors --runInBand --watch --coverage $(TESTARGS)
 
 build:
 	./node_modules/.bin/tsc -p tsconfig.json
