@@ -35,7 +35,7 @@
   "dependencies": {
     "@well-known-components/interfaces": "^1.1.0",
     "mitt": "^3.0.0",
-    "octokit": "^1.7.0"
+    "octokit": "^2.0.10"
   },
   "peerDependencies": {
     "@well-known-components/interfaces": "^1.1.0"
